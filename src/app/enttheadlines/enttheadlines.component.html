@@ -1,0 +1,8 @@
+<div class="container-fluid text-light bg-dark">
+    <div class="row">
+        <div *ngFor="let element of topEnttheadlines" class="col-lg-4 mt-3 mb-3" >
+            <img src="{{element.urlToImage}}" width="100%">
+            <h5>{{element.title}}</h5> 
+            <a class="btn btn-info" target="_black" href="{{element.url}}" >READ FULL STORY</a>        </div>
+    </div>
+</div>
